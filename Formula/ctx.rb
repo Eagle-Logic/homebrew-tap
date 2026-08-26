@@ -1,25 +1,25 @@
 class Ctx < Formula
   desc "ctx — a queryable code graph for coding agents: call graphs, blast radius, API breakage, cross-language port parity"
   homepage "https://github.com/Eagle-Logic/context"
-  version "0.18.0"
+  version "0.19.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/Eagle-Logic/context/releases/download/v0.18.0/code-context-aarch64-apple-darwin.tar.xz"
-      sha256 "f4fb74948445019efa38325effdc9150951f2dbc478d440efeef2d4790ab3c50"
+      url "https://github.com/Eagle-Logic/context/releases/download/v0.19.0/code-context-aarch64-apple-darwin.tar.xz"
+      sha256 "5558c0462715a1049e446ad05ec209cc39043a01852c1ed80ec388fc156a7c4b"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Eagle-Logic/context/releases/download/v0.18.0/code-context-x86_64-apple-darwin.tar.xz"
-      sha256 "635b83de6aa1b51e8ea30e45efc06ed259ee6358bdfaa732435e1f5b325a4001"
+      url "https://github.com/Eagle-Logic/context/releases/download/v0.19.0/code-context-x86_64-apple-darwin.tar.xz"
+      sha256 "f0bd56c030c7f49d11c4d1e68e26c69f485220be518c453333466fc2d26ee746"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/Eagle-Logic/context/releases/download/v0.18.0/code-context-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "f77b53ced379a9b352a2fd8421b6e9add79eae6270a6afe917302f5426ca97e4"
+      url "https://github.com/Eagle-Logic/context/releases/download/v0.19.0/code-context-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "b50d268d505a693a20b316c4b00b600bbde1398dbbc8353679ede45e3b51cb46"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Eagle-Logic/context/releases/download/v0.18.0/code-context-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "e9c48e7a4847e5e8370684c94fa082c293e6a8ff432d98faa79be0267dda7937"
+      url "https://github.com/Eagle-Logic/context/releases/download/v0.19.0/code-context-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "5216cf2d70fb818287d05b82f2ec1dd9e9cd57cc7d6ef4317a5c95c9a1cf3d9c"
     end
   end
   license "MIT"
